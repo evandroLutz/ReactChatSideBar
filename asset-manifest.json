@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactChatSideBar/static/css/main.e6c13ad2.css",
+    "main.js": "/ReactChatSideBar/static/js/main.b7d6ebbf.js",
+    "static/js/453.66cfca28.chunk.js": "/ReactChatSideBar/static/js/453.66cfca28.chunk.js",
+    "index.html": "/ReactChatSideBar/index.html",
+    "main.e6c13ad2.css.map": "/ReactChatSideBar/static/css/main.e6c13ad2.css.map",
+    "main.b7d6ebbf.js.map": "/ReactChatSideBar/static/js/main.b7d6ebbf.js.map",
+    "453.66cfca28.chunk.js.map": "/ReactChatSideBar/static/js/453.66cfca28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b7d6ebbf.js"
+  ]
+}
