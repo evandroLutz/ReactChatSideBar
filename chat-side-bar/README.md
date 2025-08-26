@@ -1,46 +1,111 @@
-# Getting Started with Create React App
+# React Chat App / Aplicativo de Chat React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Overview / Visão Geral
 
-## Available Scripts
+This is a simple chat application built with **React** and **styled-components**.
+It allows users to create new conversations, view existing ones, and send messages in a chat interface.
 
-In the project directory, you can run:
+Este é um aplicativo de chat simples feito com **React** e **styled-components**.
+Permite aos usuários criar novas conversas, visualizar conversas existentes e enviar mensagens em uma interface de chat.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Features / Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Create a new conversation / Criar nova conversa
+* View past conversations / Visualizar conversas anteriores
+* Dynamic UI using **styled-components** / UI dinâmica com **styled-components**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Installation / Instalação
 
-### `npm run build`
+1. Clone the repository / Clone o repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/your-username/your-repo.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies / Instale as dependências:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+3. Start the development server / Inicie o servidor de desenvolvimento:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* The app will run on `http://localhost:3000` / O app rodará em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚀 Deployment / Deploy
 
-## Learn More
+To deploy using **GitHub Pages**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para publicar usando **GitHub Pages**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Install gh-pages:
+
+```bash
+npm install --save gh-pages
+```
+
+2. Add the homepage in `package.json`:
+
+```json
+"homepage": "https://your-username.github.io/your-repo"
+```
+
+3. Add deploy scripts:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+4. Deploy the app:
+
+```bash
+npm run deploy
+```
+
+---
+
+## 💻 Usage / Uso
+
+* Click **“Nova Conversa / New Conversation”** to start a new chat.
+
+* Select a conversation to view past messages.
+
+* Type a message and press **Enter** or click **Enviar / Send** to send it.
+
+* Clique em **“Nova Conversa / New Conversation”** para iniciar um novo chat.
+
+* Selecione uma conversa para visualizar mensagens anteriores.
+
+* Digite uma mensagem e pressione **Enter** ou clique em **Enviar / Send** para enviar.
+
+---
+
+## 📂 Folder Structure / Estrutura de Pastas
+
+```
+src/
+├── components/       # React components / Componentes React
+├── interfaces/       # TypeScript interfaces / Interfaces TypeScript
+├── pages/            # Chat pages / Páginas do chat
+├── App.tsx
+├── index.tsx
+```
+
+---
+
+## 📝 License / Licença
+
+MIT License
